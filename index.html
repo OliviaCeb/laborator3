@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Lab3 - Cebanu Olivia</title>
+    <style>
+        /* Stiluri interne pentru liste */
+        ul {
+        background-color: #f3f4f6;
+        border: 2px solid #b0bec5;
+        border-radius: 8px;
+        padding: 20px;
+        width: 80%;
+        margin: 20px auto;
+        list-style-type: circle;
+        text-align: left;
+    }
+    ul ul {
+        list-style-type: square;
+        padding-left: 20px;
+    }
+
+    /* Stiluri pentru lista numerotată */
+    ol {
+        background-color: #ede7f6;
+        border: 2px solid #9575cd;
+        border-radius: 8px;
+        padding: 20px;
+        width: 80%;
+        margin: 20px auto;
+        list-style-type: decimal;
+        text-align: left;
+    }
+    ol ol {
+        list-style-type: lower-alpha;
+        padding-left: 20px;
+    }
+    </style>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- Sarcina 1: Poezia preferată -->
+    <h3 style="color: red; text-decoration: underline; text-align: center;">
+        Luceafărul <br> de Mihai Eminescu
+    </h3>
+    <p style="font-size: 18px; color: blue; font-family: Arial, sans-serif; text-align: justify; line-height: 1.5;">
+        A fost o dată ca-n povești,<br>
+        A fost ca niciodată,<br>
+        Din rude mari împărătești,<br>
+        O prea frumoasă fată.
+    </p>
+    <p style="font-size: 20px; color: green; font-family: Georgia, serif; text-align: center; font-style: italic;">
+        Și era una la părinți,<br>
+        Și mândră-n toate cele,<br>
+        Cum e Fecioara între sfinți,<br>
+        Și luna între stele.
+    </p>
+
+    <!-- Sarcina 2: Liste -->
+    <h3>Liste</h3>
+    <ul>
+        <li>Echipament necesar
+            <ul>
+                <li>Bocanci de munte</li>
+                <li>Haine impermeabile</li>
+                <li>Rucsac ergonomic</li>
+            </ul>
+        </li>
+        <li>Provizii alimentare
+            <ul>
+                <li>Apă și băuturi energizante</li>
+                <li>Fructe uscate și nuci</li>
+                <li>Conserve și batoane proteice</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <!-- Listă numerotată -->
+    <ol>
+        <li>Cursuri disponibile
+            <ol>
+                <li>Matematică</li>
+                <li>Informatica</li>
+                <li>Chimie</li>
+            </ol>
+        </li>
+        <li>Activități extracurriculare
+            <ol>
+                <li>Club de dezbateri</li>
+                <li>Sporturi
+                    <ol>
+                        <li>Fotbal</li>
+                        <li>Tenis</li>
+                    </ol>
+                </li>
+                <li>Artă și muzică</li>
+            </ol>
+        </li>
+    </ol>
+    
+    <!-- Sarcina 3: Tabelă -->
+    <h3 style="text-align: center; color: #333;">Orarul Grupei IAFR 2402</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Ziua</th>
+                <th>Ora 1</th>
+                <th>Ora 2</th>
+                <th>Ora 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Miercuri</td>
+                <td>SO (Sisteme de Operare)</td>
+                <td>Matematica</td>
+                <td>SSI (Securitatea Sistemelor Informaționale)</td>
+            </tr>
+            <tr>
+                <td>Joi</td>
+                <td>Matematica</td>
+                <td>SO (Sisteme de Operare)</td>
+                <td>SO (Sisteme de Operare)</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

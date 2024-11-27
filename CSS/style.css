@@ -1,0 +1,51 @@
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    border: 2px solid #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Stiluri pentru capul tabelului */
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+/* Stiluri pentru celulele din tabel */
+td {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Alternarea culorilor pentru rânduri */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Stiluri la hover */
+tbody tr:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+}
+
+/* Borduri personalizate */
+th, td {
+    border: 1px solid #777;
+}
+
+/* Dimensiunea celulelor */
+th, td {
+    height: 50px;
+    width: 25%;
+}
